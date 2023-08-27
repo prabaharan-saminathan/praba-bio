@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, intial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PRABA BIO-DATA</title>
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(29, 29, 21);
+    color: #f79393;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(1689425928404_DSC_0049a.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    box-sizing: border-box;
+    background-size: 310px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.container h1{
+    margin:15px;
+    font-weight:800;
+}
+
+.container h1 span{
+    color: rgb(233, 151, 126);
+    font-weight: 100;
+}
+
+.content{
+    margin: 200px 150px;
+    font-family:'Gill Sans' ;
+}
+
+.content h2{
+    letter-spacing: 1px;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 300 ;
+}
+
+.design span{
+    color: #fff;
+}
+
+.design{
+    color: blue;
+    font-size: 40px;
+    font-weight: 500;
+    width: 4ch;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid #fff;
+    animation: typing 5s infinite;
+}
+
+@keyframes typing{
+    0%{
+        width: 4ch;
+    }
+    50%{
+        width: 25ch;
+    }
+}
+
+.content h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(201, 221, 23);
+    font-weight: 700;
+}
+    
+.content p{
+    letter-spacing: 1px;
+    font-family:  Tahoma, sans-serif;
+    line-height: 22px;
+    font-weight: 10;
+}
+
+.second-space{
+    width: 100%;
+    height: min-content;
+    background-color:rgb(29, 29, 21)
+    color: black;
+}
+
+.second-space .about{
+    display: flex;
+    justify-content: center;
+    font-family: 'ubuntu';
+    font-weight: 500;
+    padding: 60px 0;
+    position: relative;
+}
+
+.second-space .about h1{
+    content: '';
+    width: 160px;
+    height: 3px;
+    border-color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-bottom: 45px;
+    transform: translateX(-50%);
+}
+
+.about h1::after{
+    position: absolute;
+    font-size: 30px;
+    padding: 5px;
+    background-color:rgb(29, 29, 21);
+    bottom: -10px;
+    left: 50%;
+    margin-bottom: 70px;
+    transform: translateX(-50%);
+}
+
+.second-space img{
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+    margin-left: 90px;
+    box-sizing: border-box;
+    padding: 45px;
+    transform: rotate(-12deg);
+    filter: drop-shadow(10px 10px 5px rgb(61 ,59,59));
+}
+
+.second-space img:hover{
+    filter: drop-shadow(15px 15px 7px rgba(212, 243, 35, 0.829));
+}
+
+.second-space .para{
+    margin-left: 50%;
+    font-family: 'poppins',sans-serif;
+    position: relative;
+}
+
+.second-space .para p{
+    display: block;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    bottom: -80px;
+    margin-bottom: 35%;
+    line-height: 27px;
+    text-align: justify;
+    margin-right: 70px;
+    letter-spacing: 0.5px;
+}
+
+.second-space .para h2{
+    color: #80f134;
+    letter-spacing: 1px;
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    margin-bottom: 72%;
+    font-weight: 160;
+    padding: 10px 0;
+}
+
+.third-class{
+    text-align: center;
+    background-color: rgb(19, 16, 16);
+    padding: 10px;
+}
+</style>
+<body>
+    <div id="header">
+        <div class="container">
+            <h1>PRABAHARAN <span>S</span></h1>
+        </div>
+        <div class="content">
+           <h2>Hello, It's me</h2>
+           <h1>PRABAHARAN</h1>
+           <h2 class="design"><span>I'm a </span>Frontend Developer</h2>
+           <p>
+             My Name Is PRABAHARAN.S , I Am Studying Computer Science And Engineering Batch For (2021-2025).<br>I Am Currently Study For 3<sup>rd</sup>Year In Mahendra Institute Of Technology,Namkkal,Tamilnadu.<br>I Complete The Programming Language Course <B>JAVA,C++,HTML,JAVASCRIPT And CSS </B>In Online Course <br>I Know Language<li><b>tamil</b></li><li><b>English</b></li><li><b>Japanese(intermediate)</b></li>  
+           </p>
+        </div>
+    </div>
+<div class="second-space">
+<div class="about"><h1>About Me</h1></div>
+<img src="1677493279376.JPG" alt="">
+<div class="para">
+    <h2>I'm Prabaharan And I'm A Frontend Developer</h2>
+    <p>Son  Of  G.Saminathan,My Mother Name Is S.Rathnadevi.<br>I Have One Elder Brother,He Name Is S.Gopinath Study M.SC At London.<br> My Date.Of.Birth(16.10.2003) And Blood Group Is (O+),<br> My Fav Colour Is Blue And Fav Num Is(5) .<br>I'm Complete Secondary School With(73% per) At Arunodhaya Higher Secondary School,Pattukkottai And I Complete Higher Secondary School In ComputerScience With (78% per) At Laurel Higher Secondary School,Pattukkottai.<br> My Native Place At Athikkottai,Pattukkottai,Thanjavur .<br> My Hobbies Is Listen Song And Sports(Volleyball,Handball,Athletics) And Bike Riding. </p>
+</div>
+
+</div>
+<div class="third-class">
+<div class="about"><h4>2023 @ PRABAHARAN-website.All Rights Reserved</h4></div>
+</div>
+</body>
+
+</html>
